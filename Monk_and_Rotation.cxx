@@ -16,8 +16,8 @@ int main(){
 
         while(k >=n)k -= n;
 
-        for (int i {0}; i < n; i++) {
-			cin >> a[i];
+        for(int i {0}; i < n; i++){
+		    cin >> a[i];
 		}
 
         for(int i{n-k}; i<n; i++ ){

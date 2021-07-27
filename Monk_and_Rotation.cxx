@@ -5,7 +5,7 @@ int a[100001];
 int main(){
 
     ios_base::sync_with_stdio(false);
-    cin.tie(nullptr);
+    cin.tie(NULL);
 
     int t,n,k;
     cin>>t;

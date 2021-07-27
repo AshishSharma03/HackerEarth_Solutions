@@ -10,15 +10,11 @@ int main(){
     int t,n,k;
     cin>>t;
     while(t--){
-
-        cin>>n
-           >>k;
-
+        cin>>n>>k;
         while(k >=n)k -= n;
-
         for(int i {0}; i < n; i++){
-		    cin >> a[i];
-		}
+	    cin >> a[i];
+	}
 
         for(int i{n-k}; i<n; i++ ){
             cout<<a[i]<<" ";
